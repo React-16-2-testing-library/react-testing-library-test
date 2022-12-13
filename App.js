@@ -6,7 +6,7 @@ import ImageCard from "./ImageCard";
 import NavItem from "./NavItem";
 
 // Mistakes: 
-// 1. Text on one of the tabs
+// 1. Setting active state on one of the tabs
 // 2. One of the components does not hide
 function App() {
   const [active, setActive] = useState("Picture");
