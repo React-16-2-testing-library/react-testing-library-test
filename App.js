@@ -23,7 +23,7 @@ function App() {
         <NavItem
           isActive={active === "Calculations"}
           onClick={(e) => {
-            setActive("Calculatons");
+            setActive("Calculations");
           }}
         >
           Calculations
