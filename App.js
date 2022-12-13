@@ -23,13 +23,13 @@ function App() {
         <NavItem
           isActive={active === "Calculations"}
           onClick={(e) => {
-            setActive("Calculations");
+            setActive("Calculatons");
           }}
         >
           Calculations
         </NavItem>
         <NavItem
-          isActive={active === "Groupp"}
+          isActive={active === "Group"}
           onClick={() => setActive("Group")}
         >
           Group
